@@ -162,6 +162,8 @@
     line-height: 32px;
     margin-top: 49px;
     margin-bottom: 6px;
+    color: var(--gorent-white);
+
 }
 
 .services-one__title{

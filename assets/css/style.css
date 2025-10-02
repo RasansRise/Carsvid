@@ -1039,11 +1039,12 @@ xs sidebar
 
 .main-menu__logo {
   display: block;
-  width: 200px;
+
   padding: 20px 0;
 }
-.main-menu__logo img{
-  max-width: 100%;
+.main-menu__logo a{
+  display: block;
+  width:200px;
 }
 .main-menu__middle-box {
   display: flex;

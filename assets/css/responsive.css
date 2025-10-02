@@ -2478,7 +2478,7 @@
 @media only screen and (max-width: 767px) {
     .main-slider .owl-theme .owl-dots {
         max-width: 540px;
-        bottom: 85px;
+        bottom: 20px;
     }
 
     .main-slider .owl-theme .owl-nav {

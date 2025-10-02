@@ -1039,20 +1039,26 @@ xs sidebar
 
 .main-menu__logo {
   display: block;
-
+  width:200px;
   padding: 20px 0;
 }
-.main-menu__logo a{
-  display: block;
-  width:200px;
-}
+
 .main-menu__middle-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
 }
-
+@media(max-width:1200px){
+  .main-menu__middle-box {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  } 
+  .hidden-div,.main-menu__right{
+    display: none!important;
+  }
+}
 .main-menu__main-menu-box {
   display: block;
 }

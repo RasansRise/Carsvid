@@ -164,7 +164,7 @@
     margin-bottom: 6px;
 }
 
-.services-one__title a {
+.services-one__title{
     color: var(--gorent-white);
 }
 
